@@ -1,0 +1,68 @@
+.home-workouts {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav .active {
+    font-weight: bold;
+  }
+  
+  .main-content {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .program-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .program-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .newsletter {
+    margin-top: 20px;
+  }
+  

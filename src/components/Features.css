@@ -1,0 +1,36 @@
+/* Features.css */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-title {
+    color: #4CAF50;
+    font-size: 1.2rem;
+  }
+  
+  .feature-description {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
